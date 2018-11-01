@@ -12,7 +12,7 @@ spring:
           uri: https://github.com/zhuhuijun/20180921config
           search-paths: config
           username: zhuhjtcx@qq.com
-          password: zzbj891016
+          password: 
           default-label: master
     bus:
       trace:

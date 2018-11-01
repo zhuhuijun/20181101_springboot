@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a48ca240-5848-415d-933e-4f21f892f4a8" name="Default" comment="" />
+    <list default="true" id="a48ca240-5848-415d-933e-4f21f892f4a8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootserver/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/bootserver/src/main/resources/application.yml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/bootserver/target/" />
@@ -67,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adminclient2/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="520">
@@ -109,6 +111,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bootserver/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="HiController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adminclient2/src/main/java/com/zzbj/controller/HiController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -132,6 +144,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -153,7 +168,6 @@
         <option value="$PROJECT_DIR$/bootclient/pom.xml" />
         <option value="$PROJECT_DIR$/RabbitmqTest/pom.xml" />
         <option value="$PROJECT_DIR$/RabbitmqTest/src/main/java/RabbitmqProducerMain.java" />
-        <option value="$PROJECT_DIR$/bootserver/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/bootclient/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/userservice/pom.xml" />
         <option value="$PROJECT_DIR$/userservice/src/main/resources/application.yml" />
@@ -174,6 +188,7 @@
         <option value="$PROJECT_DIR$/adminservice/pom.xml" />
         <option value="$PROJECT_DIR$/adminservice/src/main/java/com/zzbj/config/SecuritySecureConfig.java" />
         <option value="$PROJECT_DIR$/adminclient2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/bootserver/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -196,6 +211,7 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -225,77 +241,25 @@
             <path>
               <item name="bootconifg" type="b2602c69:ProjectViewProjectNode" />
               <item name="bootconifg" type="462c0819:PsiDirectoryNode" />
-              <item name="adminclient2" type="462c0819:PsiDirectoryNode" />
+              <item name="bootserver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bootconifg" type="b2602c69:ProjectViewProjectNode" />
               <item name="bootconifg" type="462c0819:PsiDirectoryNode" />
-              <item name="adminclient2" type="462c0819:PsiDirectoryNode" />
+              <item name="bootserver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bootconifg" type="b2602c69:ProjectViewProjectNode" />
               <item name="bootconifg" type="462c0819:PsiDirectoryNode" />
-              <item name="adminclient2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bootconifg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bootconifg" type="462c0819:PsiDirectoryNode" />
-              <item name="adminclient2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bootconifg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bootconifg" type="462c0819:PsiDirectoryNode" />
-              <item name="adminservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bootconifg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bootconifg" type="462c0819:PsiDirectoryNode" />
-              <item name="adminservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bootconifg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bootconifg" type="462c0819:PsiDirectoryNode" />
-              <item name="adminservice" type="462c0819:PsiDirectoryNode" />
+              <item name="bootserver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bootconifg" type="b2602c69:ProjectViewProjectNode" />
               <item name="bootconifg" type="462c0819:PsiDirectoryNode" />
-              <item name="adminservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bootconifg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bootconifg" type="462c0819:PsiDirectoryNode" />
-              <item name="adminservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zzbj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bootconifg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bootconifg" type="462c0819:PsiDirectoryNode" />
-              <item name="adminservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bootconifg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bootconifg" type="462c0819:PsiDirectoryNode" />
-              <item name="adminservice" type="462c0819:PsiDirectoryNode" />
+              <item name="bootserver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -550,12 +514,12 @@
       <workItem from="1539927112290" duration="3054000" />
       <workItem from="1540532645200" duration="2769000" />
       <workItem from="1540985543537" duration="844000" />
-      <workItem from="1541057061070" duration="8203000" />
+      <workItem from="1541057061070" duration="8415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32546000" />
+    <option name="totallyTimeSpent" value="32758000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -586,7 +550,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847533" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.86098653" sideWeight="0.49248928" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5616592" sideWeight="0.49694657" order="7" side_tool="false" content_ui="tabs" />
@@ -790,14 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootserver/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,6 +1015,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret line="26" column="61" lean-forward="false" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootserver/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding />
         </state>
       </provider>
