@@ -1,0 +1,37 @@
+server:
+  port: 9772
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        #native:
+          #search-locations: classpath:/shared
+        git:
+          uri: https://github.com/zhuhuijun/20180921config
+          search-paths: config
+          username: zhuhjtcx@qq.com
+          password: zzbj891016
+          default-label: master
+    bus:
+      trace:
+        enabled: true
+      enabled: true
+  rabbitmq:
+    host: 192.168.58.99
+    port: 5672
+    username: admin
+    password: admin
+    virtual-host: /
+
+eureka:
+  client:
+    serviceUrl:
+       defaultZone: http://localhost:9774/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="adminclient" />
+        <module name="adminclient2" />
+        <module name="adminclient3" />
+        <module name="adminservice" />
+        <module name="bootclient" />
+        <module name="bootserver" />
+        <module name="eurekaserver" />
+        <module name="gatewayservice" />
+        <module name="RabbitmqTest" />
+        <module name="userservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="adminclient" target="1.8" />
+      <module name="adminclient2" target="1.8" />
+      <module name="adminclient3" target="1.8" />
+      <module name="adminservice" target="1.8" />
+      <module name="bootclient" target="1.8" />
+      <module name="bootconifg" target="1.8" />
+      <module name="bootserver" target="1.8" />
+      <module name="eurekaserver" target="1.8" />
+      <module name="gatewayservice" target="1.8" />
+      <module name="RabbitmqTest" target="1.8" />
+      <module name="userservice" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

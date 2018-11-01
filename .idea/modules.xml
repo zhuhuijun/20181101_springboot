@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RabbitmqTest/RabbitmqTest.iml" filepath="$PROJECT_DIR$/RabbitmqTest/RabbitmqTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adminclient/adminclient.iml" filepath="$PROJECT_DIR$/adminclient/adminclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adminclient2/adminclient2.iml" filepath="$PROJECT_DIR$/adminclient2/adminclient2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adminservice/adminservice.iml" filepath="$PROJECT_DIR$/adminservice/adminservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootclient/bootclient.iml" filepath="$PROJECT_DIR$/bootclient/bootclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootconifg.iml" filepath="$PROJECT_DIR$/bootconifg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootserver/bootserver.iml" filepath="$PROJECT_DIR$/bootserver/bootserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gatewayservice/gatewayservice.iml" filepath="$PROJECT_DIR$/gatewayservice/gatewayservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/userservice/userservice.iml" filepath="$PROJECT_DIR$/userservice/userservice.iml" />
+    </modules>
+  </component>
+</project>
